@@ -47,9 +47,9 @@ const barChart=(
             data:[confirmed.value,recovered.value,deaths.value]
         }]
     }}
-    option={{
+    options={{
         legend:{display:false},
-        title:{display:true,text:`Current State in ${country}`},
+        title:{display:true,text:`Current state in ${country}`},
     }}
     />
     ):null
